@@ -1,0 +1,14 @@
+{
+  "name": "fastify-cookie-hook-false-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MRE: reply.setCookie() is a silent no-op when @fastify/cookie is registered with hook:false",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^11.0.2",
+    "fastify": "^5.10.0"
+  }
+}
